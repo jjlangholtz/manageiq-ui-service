@@ -37,6 +37,7 @@
     return CollectionsApi.query('blueprints', options);
   }
 
+  /** @ngInject */
   function resolveServiceCatalogs(CollectionsApi) {
     var options = {
       expand: 'resources',
