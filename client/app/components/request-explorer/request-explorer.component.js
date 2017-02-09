@@ -23,6 +23,7 @@ function ComponentController($state, CollectionsApi, RequestsState, ListView, $f
         selectionMatchProp: 'id',
         onCheckBoxChange: selectItem,
         onClick: handleRequestClick,
+        useExpandingRows: true,
       },
       toolbarConfig: {
         actionsConfig: {
